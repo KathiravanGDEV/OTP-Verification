@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP-Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Confirm Your OTP...</h4>
+            </div>
+            <div class="card-main">
+                <form action="">
+                    <input class="OTP" type="text" oninput='digitalValidate(this)' onkeyup='tabChange(1)' maxlength=1>
+                    <input class="OTP" type="text" oninput='digitalValidate(this)' onkeyup='tabChange(2)' maxlength=1>
+                    <input class="OTP" type="text" oninput='digitalValidate(this)' onkeyup='tabChange(3)' maxlength=1>
+                    <input class="OTP" type="text" oninput='digitalValidate(this)' onkeyup='tabChange(4)' maxlength=1>
+                </form>
+            </div>
+            <hr>
+            <button type="submit" class="btn" onclick="myFunction()">Verify</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </script>
+</body>
+
+</html>
